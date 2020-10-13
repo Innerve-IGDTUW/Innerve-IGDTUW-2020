@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 h2{
@@ -30,7 +36,7 @@ background-size: cover;
 
 .text-box{
   position: absolute;
-  top: 40%;
+  top: 47%;
   left: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
@@ -209,6 +215,8 @@ padding: 4.75rem;
   font-weight: 700;
   font-size: 1.3rem;
 }
+
+
 
 @media screen and (max-width: 630px)
 {
