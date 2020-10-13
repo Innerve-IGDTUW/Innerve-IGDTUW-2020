@@ -37,7 +37,8 @@ background-color: black;
 
 .text-box{
   position: absolute;
-  top: 47%;
+  /* top: 47%; */
+  top: 230px;
   left: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
@@ -65,17 +66,21 @@ background-color: black;
   height: 65vh;
   /* background-image: linear-gradient(to right bottom,rgba(167 200 202 / 80%),rgba(48,227,202,0.8)), url(https://images.all-free-download.com/images/graphiclarge/abstract_blue_technical_background_311541.jpg); */
   background-size: contain;
-    background-position: center;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 50vh,0 100%);
-    position: relative;
+  background-position: center;
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 50vh,0 100%); */
+  position: relative;
 }
 
 .sponsorss-heading{
   font-weight: 400;
-    font-size: 3.75rem;
-    letter-spacing: 1rem;
-    color: #eed9b7;
-    animation: Jump 1.5s linear 0.25s;
+  /* font-size: 3.75rem; */
+  font-size: 4.5rem;
+  letter-spacing: 0.3rem;
+  color: #212529;
+  animation: Jump 1.5s linear 0.25s;
+  font-family: 'Major Mono Display', monospace;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #eed9b7;
 }
 
 .container {
@@ -121,6 +126,7 @@ background-color: black;
 h4 {
   font-size: 1.2rem;
   color: #eed9b7;
+  margin-bottom: 5px;;
 }
 
 .other-sponsors{
@@ -144,6 +150,10 @@ p{
 }
 .hiddendiv{
   position: relative;
+  box-shadow: 5px 5px 28px -12px #ecd7b6;
+  transition: all 0.5s;
+  padding-top: 12px;
+  /* padding-bottom: 12px; */
 }
 .hiddentext {
   display: none;
@@ -156,6 +166,10 @@ p{
   text-align: center;
   color: white;
   font-size: 20px;
+}
+
+.hiddendiv:hover {
+  box-shadow: none;
 }
 
 #contact{
