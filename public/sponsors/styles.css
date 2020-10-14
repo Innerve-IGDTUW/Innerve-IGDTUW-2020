@@ -258,3 +258,9 @@ padding: 4.75rem;
     padding: 200px;
   }
 }
+
+@media screen and (max-width: 432px) {
+  #sponsorss {
+    height: 48vh;
+  }
+}
