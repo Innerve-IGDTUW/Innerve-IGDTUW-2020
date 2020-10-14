@@ -337,10 +337,8 @@ h1{
     font-size: 65px;
     color: #eed9b7;
     font-weight: bold;
-    margin-top: 5px;
 	font-family: 'Limelight', cursive;
-	padding-top: 50px;
-	/* padding-bottom: 30px; */
+	margin-top: 70px;
 }
 .hover-reveal {
 	position: fixed;
