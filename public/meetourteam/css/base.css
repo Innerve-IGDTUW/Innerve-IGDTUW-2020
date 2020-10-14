@@ -58,6 +58,25 @@ body {
 	animation: loaderAnim 0.7s linear infinite alternate forwards;
 }
 
+.jumbotron {
+	margin-top: 5rem;
+	background-color: black;
+	/* background-color: #2b2b2b; */
+	padding-top: 40px;
+	padding-bottom: 0;
+	text-align: center;
+}
+  
+.display-4 {
+	font-size: 4rem;
+	font-weight: bolder;
+	color: #212529;
+	font-family: 'Major Mono Display', monospace;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #eed9b7;
+	margin: 0;
+}
+
 @keyframes loaderAnim {
 	to {
 		opacity: 1;
