@@ -1,190 +1,296 @@
-<%- include('./partials/header') %>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-<link rel="stylesheet" href="https://use.typekit.net/dec4mzz.css">
-<link rel="stylesheet" type="text/css" href="/gallery/css/base.css" />
-<script>
-    document.documentElement.className = "js";
-    var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
-    supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
-</script>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Innerve-2020</title>
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./public/navbar/css/nav.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/dec4mzz.css">
+    <link rel="stylesheet" type="text/css" href="./public/gallery/css/base.css" />
+    <script>
+        document.documentElement.className = "js";
+        var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
+        supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+    </script>
+</head>
 
 <body class="demo-3 loading">
+
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-xl py-0 fixed-top">
+        <!-- <a href="#" class="navbar-brand">CANDY</a> -->
+        <a href="./landing.html" class="navbar-brand logo">
+            <img src="./public/navbar/img/innerve_logo.png">
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="./events.html" class="nav-link" style="color: #eed9b7">EVENTS</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a href="/register" class="nav-link" style="color: #eed9b7">REGISTER</a>
+                </li> -->
+                <li class="nav-item">
+                    <a href="./gallery.html" class="nav-link" style="color: #eed9b7">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./sponsors.html" class="nav-link" style="color: #eed9b7">SPONSORS</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a href="/schedule" class="nav-link" style="color: #eed9b7">SCHEDULE</a>
+                </li> -->
+                <li class="nav-item">
+                    <a href="./social-campaign.html" class="nav-link" style="color: #eed9b7">SOCIAL CAMPAIGN</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./meet-the-team.html" class="nav-link" style="color: #eed9b7">MEET THE TEAM!</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <main>
         <div data-scroll class="page page--layout-2">
-            <h1 class="page__title">Gallery</h1>
+            <div class="jumbotron">
+                <h1 class="display-4">GALLERY</h1>
+            </div>
             <div class="content content--alternate content--padded">
                 <div class="content__item content__item--expand" style="--aspect-ratio: 700/525;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/1.jpg);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/1.jpg);"></div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">I</h2>
+                    <p class="content__item-description">Bringing down the curtains for the day of the fest while hoping
+                        for more. The blinding lights in the background aren’t as bright as the enthusiastic faces of
+                        the organising committee.</p>
                 </div>
                 <div class="content__item content__item--expand" style="--aspect-ratio: 800/462;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/2.JPG);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/2.JPG);"></div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">N</h2>
+                    <p class="content__item-description">Fashion that brings you a stunning fusion of innovation and
+                        glamour. Where is that phenomenal diva walking down the ramp? You got it, it's IGDTUW alright.
+                    </p>
                 </div>
                 <div class="content__item content__item--expand" style="--aspect-ratio: 700/447;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/3.jpg);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/3.jpg);"></div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">N</h2>
+                    <p class="content__item-description">Technology teams up with fun! Unwavering concentration as he
+                        flies the drone he assembled to complete the maze; everyone watches bristling with excitement.
+                    </p>
                 </div>
                 <div class="content__item content__item--expand" style="--aspect-ratio: 500/750;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/4.jpg);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/4.jpg);"></div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">E</h2>
+                    <p class="content__item-description">It’s girl power hour! Watching girls compete with their peers
+                        with confidence, engrossed in the code on the screen; so inspiring.</p>
                 </div>
                 <div class="content__item content__item--expand" style="--aspect-ratio: 700/525;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/5.jpg);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/5.jpg);"></div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">R</h2>
+                    <p class="content__item-description">Talent wins games but teamwork and intelligence wins
+                        championships.Are you ready to team up with your mates for Innerve'20?</p>
                 </div>
                 <div class="content__item content__item--expand" style="--aspect-ratio: 700/467;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/6.jpg);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/6.jpg);"></div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">V</h2>
+                    <p class="content__item-description">Amidst all the hectic work and stressful routine, who's still
+                        smiling when the camera shows? IGDTUWites.</p>
                 </div>
                 <div class="content__item content__item--expand" style="--aspect-ratio: 500/813;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/7.jpg);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/7.jpg);"></div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">E</h2>
+                    <p class="content__item-description">Can you hear the loud roars, cheers, screams and excitement
+                        through this picture, or is it just us?</p>
                 </div>
                 <div class="content__item content__item--expand" style="--aspect-ratio: 700/361;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/8.JPG);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/8.JPG);"></div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">I</h2>
+                    <p class="content__item-description">An actual representation of me planning to chill and enjoy at
+                        Innerve'20, while all my assignments and exams pile up till I'm buried in over my head.</p>
                 </div>
                 <div class="content__item content__item--expand" style="--aspect-ratio: 500/750;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/9.jpg);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/9.jpg);"></div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">G</h2>
+                    <p class="content__item-description">It's not only a flying machine, but also a new pair of eyes
+                        that helps us see the world from a different point of view.</p>
                 </div>
                 <div class="content__item content__item--expand" style="--aspect-ratio: 700/467;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/10.JPG);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/10.JPG);">
+                        </div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
-                </div>
-
-                <div class="content__item content__item--expand" style="--aspect-ratio: 700/467;">
-                    <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/11.JPG);"></div>
-                    </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">D</h2>
+                    <p class="content__item-description">The lights are set, the crowd is lit, and the night is still
+                        young. Time to make some amazing memories!</p>
                 </div>
 
                 <div class="content__item content__item--expand" style="--aspect-ratio: 700/467;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/12.jpg);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/11.JPG);">
+                        </div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">T</h2>
+                    <p class="content__item-description">We are a team because we work together. But we are also a
+                        family because we enjoy, grow, learn, and stick together.</p>
                 </div>
 
                 <div class="content__item content__item--expand" style="--aspect-ratio: 700/467;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/13.jpg);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/12.jpg);">
+                        </div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">U</h2>
+                    <p class="content__item-description">A true artist is not the one who is inspired, but the one who
+                        inspires others. Let your creativity flow!</p>
                 </div>
 
                 <div class="content__item content__item--expand" style="--aspect-ratio: 700/467;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/14.jpg);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/13.jpg);">
+                        </div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">W</h2>
+                    <p class="content__item-description">"... She decided to free herself, dance into the wind, and
+                        create a new language." Dancers don't need wings to fly when you have a stage to take flight.
+                    </p>
                 </div>
 
                 <div class="content__item content__item--expand" style="--aspect-ratio: 700/467;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/15.JPG);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/14.jpg);">
+                        </div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">G</h2>
+                    <p class="content__item-description">The only way to grow is to take everyone along. We, at Innerve,
+                        help each other and strive to be the best because the real competition is the one with
+                        ourselves.</p>
                 </div>
 
                 <div class="content__item content__item--expand" style="--aspect-ratio: 700/467;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/16.jpg);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/15.JPG);">
+                        </div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">A</h2>
+                    <p class="content__item-description">Life is too short to wear boring clothes, isn't it? These
+                        gorgeous ladies took it seriously; sprinkling art as confetti walking down the ramp.</p>
                 </div>
 
                 <div class="content__item content__item--expand" style="--aspect-ratio: 700/467;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/17.jpg);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/16.jpg);">
+                        </div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">L</h2>
+                    <p class="content__item-description">Laughter is an instant vacation. In this stressful world that
+                        is what we yearn for the most. Amidst the tech events, let's take a mini vacation.</p>
                 </div>
 
                 <div class="content__item content__item--expand" style="--aspect-ratio: 700/467;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/18.JPG);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/17.jpg);">
+                        </div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">L</h2>
+                    <p class="content__item-description">Get ready to design a robot that can play soccer and race
+                        against time. Witness many more such events with Innerve.</p>
                 </div>
 
                 <div class="content__item content__item--expand" style="--aspect-ratio: 700/467;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/19.JPG);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/18.JPG);">
+                        </div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">E</h2>
+                    <p class="content__item-description">Unbridled merrymaking, lighthearted amusement. Come forward and
+                        blend in with the fun crowd at these Informal Events.</p>
                 </div>
 
                 <div class="content__item content__item--expand" style="--aspect-ratio: 700/467;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/20.jpg);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/19.JPG);">
+                        </div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">R</h2>
+                    <p class="content__item-description">What's better than having fun? Free goodies! Participants have
+                        fun in amazing events and get cool swags to boot.</p>
                 </div>
 
                 <div class="content__item content__item--expand" style="--aspect-ratio: 700/467;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/21.jpg);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/20.jpg);">
+                        </div>
                     </div>
-                    <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <h2 class="content__item-title">Y</h2>
+                    <p class="content__item-description">Design autonomous robots that compete to solve a maze. Come
+                        along to solve the trickiest bot maze ever in Innerve.</p>
                 </div>
 
                 <div class="content__item content__item--expand" style="--aspect-ratio: 700/467;">
                     <div class="content__item-imgwrap">
-                        <div class="content__item-img" style="background-image: url(img/22.JPG);"></div>
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/21.jpg);">
+                        </div>
                     </div>
                     <h2 class="content__item-title"></h2>
-                    <p class="content__item-description"></p>
+                    <p class="content__item-description">Music can express what cannot be put into words; bringing
+                        euphoria when you and your friends dance to the same beats; spreading calm and soothing the
+                        soul.</p>
+                </div>
+
+                <div class="content__item content__item--expand" style="--aspect-ratio: 700/467;">
+                    <div class="content__item-imgwrap">
+                        <div class="content__item-img" style="background-image: url(./public/gallery/img/22.JPG);">
+                        </div>
+                    </div>
+                    <h2 class="content__item-title"></h2>
+                    <p class="content__item-description">Get ready for the ultimate remix of rhythm, energy, and beats.
+                        Experience these unforgettable dance moves.</p>
                 </div>
             </div>
         </div>
     </main>
 </body>
 
-<script src="/gallery/js/imagesloaded.pkgd.min.js"></script>
-<script src="/gallery/js/demo3.js"></script>
-
-<%- include('./partials/footer') %>
+<script src="./public/gallery/js/imagesloaded.pkgd.min.js"></script>
+<script src="./public/gallery/js/demo3.js"></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+<script type="text/javascript" src="./public/navbar/js/nav.js"></script>
+</body>
+</html>
