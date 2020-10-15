@@ -486,6 +486,12 @@ canvas {
 	outline: none;
 }
 
+#heading {
+    position: static;
+    position: relative;
+    top: 40%;
+}
+
 @media screen and (min-width: 53em) {
 	.frame {
 		position: fixed;
@@ -563,4 +569,10 @@ canvas {
 		padding: 0 4rem;
 		grid-gap: 4rem;
 	}
+}
+
+@media screen and (min-width: 835px) {
+    #heading {
+        position: static;
+    }
 }
