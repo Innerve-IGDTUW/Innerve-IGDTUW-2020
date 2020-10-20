@@ -540,6 +540,12 @@ Posters and still images
 .scene.image.minor:nth-child(4) .poster {
   background-image: url(../img/BEG_BORROW_STEAL.png);
 }
+.scene.image.minor:nth-child(5) .poster {
+  background-image: url(../img/WHAT_DO_YOU_MEME.png);
+}
+.scene.image.minor:nth-child(6) .poster {
+  background-image: url(../img/CROSSWORD_PUZZLES.png);
+}
 
 
 
@@ -576,6 +582,14 @@ Posters and still images
 /*	background-image: url(../img/still01.jpg);*/
 } 
 .scene.image.minor:nth-child(4) .info header {
+/*	background-image: url(../img/still02.jpg);*/
+    background-color: #ff5555;
+} 
+.scene.image.minor:nth-child(5) .info header {
+/*	background-image: url(../img/still02.jpg);*/
+    background-color: #ff5555;
+} 
+.scene.image.minor:nth-child(6) .info header {
 /*	background-image: url(../img/still02.jpg);*/
     background-color: #ff5555;
 } 
