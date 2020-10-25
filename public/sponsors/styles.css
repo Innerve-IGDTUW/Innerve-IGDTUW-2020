@@ -49,11 +49,11 @@ background-color: black;
 
   0%{
    opacity: 0;
-   transform: translateY(-3.75rem) ;
+   transform: translateY(-2rem) ;
   }
 
   60%{
-    transform: translateY(3.75rem);
+    transform: translateY(2rem);
   }
 
   100%{
@@ -262,5 +262,12 @@ padding: 4.75rem;
 @media screen and (max-width: 432px) {
   #sponsorss {
     height: 48vh;
+  }
+  .container {
+    margin: 0;
+    width: 100%;
+  }
+  .text-box {
+    top: 170px;
   }
 }
